@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Full Stack 4th Class</title>
+</head>
+<body>
+	<h1>List of block-level element and inline element</h1>
+	<table border="1">
+		<tr>
+			<th>Block-level Elemt</th>
+			<th>Inline Element</th>
+		</tr>
+		<tr>
+			<td>
+				&lt;p&gt;
+			</td>
+			<td>&lt;em&gt;, &lt;strong&gt;</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;h1&gt;
+				&lt;h2&gt;
+				&lt;h3&gt;
+				&lt;h4&gt;
+				&lt;h5&gt;
+				&lt;h6&gt;
+			</td>
+			<td>&lt;a&gt;</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;ol&gt;
+				&lt;ul&gt;
+				&lt;dl&gt;
+			</td>
+			<td>&lt;img&gt;</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;pre&gt;
+			</td>
+			<td>&lt;sup&gt;, &lt;sub&gt;</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;address&gt;
+			</td>
+			<td>&lt;small&gt;, &lt;big&gt;</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;blockquote&gt;
+			</td>
+			<td>&lt;q&gt;</td>
+		</tr>
+		<tr>
+			<td>&lt;div&gt;</td>
+			<td>&lt;span&gt;</td>
+		</tr>
+		<tr>
+			<td>&lt;findset&gt;</td>
+			<td>&lt;bdo&gt;, &lt;label&gt;</td>
+		</tr>
+		<tr>
+			<td>&lt;form&gt;</td>
+			<td>&lt;button&gt;, &lt;input&gt;, &lt;label&gt;, &lt;select&gt;, &lt;textarea&gt;</td>
+		</tr>
+		<tr>
+			<td>&lt;table&gt;</td>
+			<td>&lt;td&gt;</td>
+		</tr>
+		<tr>
+			<td>&lt;hr&gt;</td>
+			<td>&lt;br&gt;</td>
+		</tr>
+	</table>
+
+	<h3>List of sementic elements:</h3>
+	<ul>
+		<li>&lt;article&gt;</li>
+		<li>&lt;aside&gt;</li>
+		<li>&lt;header&gt;</li>
+		<li>&lt;nav&gt;</li>
+		<li>&lt;footer&gt;</li>
+		<li>&lt;details&gt;</li>
+		<li>&lt;figcaption&gt;</li>
+		<li>&lt;figure&gt;</li>
+		<li>&lt;main&gt;</li>
+		<li>&lt;mark&gt;</li>
+		<li>&lt;section&gt;</li>
+		<li>&lt;summary&gt;</li>
+		<li>&lt;time&gt;</li>
+
+	</ul>
+
+	<h3>HTML Elements:</h3>
+	<table border="1" width="900">
+		<tr>
+			<th>Tag</th>
+			<th>Description</th>
+			<th>Example</th>
+		</tr>
+		<tr>
+			<td>&lt;kbd&gt;</td>
+			<td>Defines keyboard input</td>
+			<td><p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p></td>
+		</tr>
+		<tr>
+			<td>&lt;label&gt;</td>
+			<td>Defines a label for an input element</td>
+			<td>
+				<form action="/action_page.php">
+				  <label for="male">Male</label>
+				  <input type="radio" name="gender" id="male" value="male"><br>
+				  <label for="female">Female</label>
+				  <input type="radio" name="gender" id="female" value="female"><br>
+				  <label for="other">Other</label>
+				  <input type="radio" name="gender" id="other" value="other"><br><br>
+				  <input type="submit" value="Submit">
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;legend&gt;</td>
+			<td>Defines a caption for a fieldset element</td>
+			<td>
+				<form action="/action_page.php">
+				  <fieldset>
+				    <legend>Personalia:</legend>
+				    <label for="fname">First name:</label>
+				    <input type="text" id="fname" name="fname"><br><br>
+				    <label for="lname">Last name:</label>
+				    <input type="text" id="lname" name="lname"><br><br>
+				    <label for="email">Email:</label>
+				    <input type="email" id="email" name="email"><br><br>
+				    <label for="birthday">Birthday:</label>
+				    <input type="date" id="birthday" name="birthday"><br><br>
+				    <input type="submit" value="Submit">
+				  </fieldset>
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;li&gt;</td>
+			<td>Defines a list item</td>
+			<td>
+				<ul>
+					<li>USA</li>
+					<li>Canada</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;link&gt;</td>
+			<td>
+				Defines the relationship between a document and an external resource (most used to link to style sheets)
+			</td>
+			<td>
+				&lt;link rel="stylesheet" href="styles.css"&gt;
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;link&gt;</td>
+			<td>Specifies the main content of a document</td>
+			<td>
+				<main>
+				  <h1>Most Popular Browsers</h1>
+				  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+				  <article>
+				    <h2>Google Chrome</h2>
+				    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+				  </article>
+
+				  <article>
+				    <h2>Mozilla Firefox</h2>
+				    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+				  </article>
+
+				  <article>
+				    <h2>Microsoft Edge</h2>
+				    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+				  </article>
+				</main>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;map&gt;</td>
+			<td>Defines an image-map</td>
+			<td>
+				<img src="https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+				<map name="workmap">
+				  <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.pexels.com/photo/black-flat-screen-computer-monitor-1714208/">
+				</map>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;mark&gt;</td>
+			<td>Defines marked/highlighted text</td>
+			<td><mark>Hello world</mark></td>
+		</tr>
+		<tr>
+			<td>&lt;meta&gt;</td>
+			<td>Defines metadata about an HTML document</td>
+			<td>
+				  &lt;meta charset="UTF-8"&gt;<br>
+				  &lt;meta name="description" content="Free Web tutorials"&gt;<br>
+				  &lt;meta name="keywords" content="HTML, CSS, JavaScript"&gt;<br>
+				  &lt;meta name="author" content="John Doe"&gt;<br>
+				  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; <br>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;meter&gt;</td>
+			<td>Defines a scalar measurement within a known range (a gauge)</td>
+			<td>
+				<label for="disk_c">Disk usage C:</label>
+				<meter id="disk_c" value="4" min="0" max="10">4 out of 10</meter>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;nav&gt;</td>
+			<td>Defines navigation links</td>
+			<td>
+				<nav>
+				  <a href="/html/">HTML</a> |
+				  <a href="/css/">CSS</a> |
+				  <a href="/js/">JavaScript</a> |
+				  <a href="/python/">Python</a>
+				</nav>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;noscript&gt;</td>
+			<td>Defines an alternate content for users that do not support client-side scripts</td>
+			<td>
+				&lt;noscript&gt;Your browser does not support JavaScript!&lt;/noscript&gt;
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;object&gt;</td>
+			<td>Defines a container for an external application</td>
+			<td>
+				<object data="https://images.pexels.com/photos/2058128/pexels-photo-2058128.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="300" height="200"></object>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;ol&gt;</td>
+			<td>Defines an ordered list</td>
+			<td>
+				<ol>
+					<li>Bangladesh</li>
+					<li>India</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;optgroup&gt;</td>
+			<td>Defines a group of related options in a drop-down list</td>
+			<td>
+				<label for="cars">Choose a car:</label>
+				<select  name="cars" id="cars">
+				  <optgroup label="Swedish Cars">
+				    <option value="volvo">Volvo</option>
+				    <option value="saab">Saab</option>
+				  </optgroup>
+				  <optgroup label="German Cars">
+				    <option value="mercedes">Mercedes</option>
+				    <option value="audi">Audi</option>
+				  </optgroup>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;option&gt;</td>
+			<td>Defines an option in a drop-down list</td>
+			<td>
+				<label for="cars">Choose a car:</label>
+
+				<select id="cars">
+				  <option value="volvo">Volvo</option>
+				  <option value="saab">Saab</option>
+				  <option value="opel">Opel</option>
+				  <option value="audi">Audi</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;output&gt;</td>
+			<td>Defines the result of a calculation</td>
+			<td>
+				<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+				  <input type="range" id="a" value="50">
+				  +<input type="number" id="b" value="25">
+				  =<output name="x" for="a b"></output>
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;p&gt;</td>
+			<td>Defines a paragraph</td>
+			<td><p>lorem ipsim Defines a paragraph</p></td>
+		</tr>
+		<tr>
+			<td>&lt;param&gt;</td>
+			<td>Defines a parameter for an object</td>
+			<td>
+				<object data="audio/horse.wav">
+				  <param name="autoplay" value="true">
+				</object>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;picture&gt;</td>
+			<td>Defines a container for multiple image resources</td>
+			<td>
+				<picture>
+				  <source media="(min-width:650px)" srcset="images/a.jpg">
+				  <source media="(min-width:465px)" srcset="images/b.jpg">
+				  <img src="images/c.jpg" alt="Flowers" style="width:auto;">
+				</picture>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;pre&gt;</td>
+			<td>Defines preformatted text</td>
+			<td>
+				<pre>
+				Text in a pre element
+					is displayed in a fixed-width
+				font, and it preserves
+					both      spaces and
+				line breaks
+				</pre>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;progress&gt;</td>
+			<td>Represents the progress of a task</td>
+			<td>
+				<label for="file">Downloading progress:</label>
+				<progress id="file" value="32" max="100"> 32% </progress>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;q&gt;</td>
+			<td>Defines a short quotation</td>
+			<td>
+				<q>Build a future where people live in harmony with nature.</q>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;rp&gt;</td>
+			<td>Defines what to show in browsers that do not support ruby annotations</td>
+			<td>
+				<ruby>
+					漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt>
+				</ruby>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;rt&gt;</td>
+			<td>Defines an explanation/pronunciation of characters (for East Asian typography)</td>
+			<td>
+				<ruby>
+					漢 <rt> ㄏㄢˋ </rt>
+				</ruby>
+			</td>
+		</tr>
+		<tr>
+			<td>&lt;ruby&gt;</td>
+			<td>Defines a ruby annotation (for East Asian typography)</td>
+			<td>
+				<ruby>
+				漢 <rt> ㄏㄢˋ </rt>
+				</ruby>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
